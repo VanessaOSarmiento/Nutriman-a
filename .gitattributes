@@ -1,0 +1,19 @@
+# Unity files
+*.meta -text
+*.unity -text
+*.asset -text
+*.prefab -text
+*.mat -text
+*.fbx -text
+*.png -text
+*.jpg -text
+*.tga -text
+*.wav -text
+*.mp3 -text
+*.ogg -text
+*.zip -text
+
+# LFS (if you want to use it, uncomment below)
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.jpg filter=lfs diff=lfs merge=lfs -text
+# *.fbx filter=lfs diff=lfs merge=lfs -text
