@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+
 --- !u!29 &1
 OcclusionCullingSettings:
   m_ObjectHideFlags: 0
@@ -10,6 +11,7 @@ OcclusionCullingSettings:
     backfaceThreshold: 100
   m_SceneGUID: 00000000000000000000000000000000
   m_OcclusionCullingData: {fileID: 0}
+
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -40,6 +42,7 @@ RenderSettings:
   m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0.18306622, g: 0.2287434, b: 0.30669293, a: 1}
   m_UseRadianceAmbientProbe: 0
+
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -99,6 +102,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 0}
+
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -123,7 +127,8 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &10  # Directional Light
+
+--- !u!1 &10
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,6 +146,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!108 &12
 Light:
   m_ObjectHideFlags: 0
@@ -203,6 +209,7 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+
 --- !u!4 &11
 Transform:
   m_ObjectHideFlags: 0
@@ -218,6 +225,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 37.647, y: 10.322, z: 41.066}
+
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,8 +236,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
@@ -241,7 +249,8 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!1001 &20  # XR Origin (XR Rig)
+
+--- !u!1001 &20
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -274,7 +283,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
---- !u!1 &30 # XR Interaction Manager
+
+--- !u!1 &30
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -291,6 +301,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!114 &32
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,10 +312,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_StartingHoverFilters: []
   m_StartingSelectFilters: []
+
 --- !u!4 &31
 Transform:
   m_ObjectHideFlags: 0
@@ -319,7 +331,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!1 &40 # EventSystem
+
+--- !u!1 &40
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -337,6 +350,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!114 &43
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,8 +361,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab68ce6587aab0146b8dabefbd806791, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_SendPointerHoverToParent: 1
   m_ClickSpeed: 0.3
   m_MoveDeadzone: 0.6
@@ -375,6 +389,7 @@ MonoBehaviour:
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
   m_CancelButton: Cancel
+
 --- !u!114 &42
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,11 +400,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+
 --- !u!4 &41
 Transform:
   m_ObjectHideFlags: 0
@@ -404,7 +420,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!1 &100 # Room Container
+
+--- !u!1 &100
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -420,6 +437,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &101
 Transform:
   m_ObjectHideFlags: 0
@@ -439,7 +457,8 @@ Transform:
   - {fileID: 151}
   m_Father: {fileID: 0}
   m_RootOrder: 4
---- !u!1 &110 # Floor
+
+--- !u!1 &110
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -459,6 +478,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &111
 Transform:
   m_ObjectHideFlags: 0
@@ -473,6 +493,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 101}
   m_RootOrder: 0
+
 --- !u!65 &114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -486,6 +507,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+
 --- !u!23 &113
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -497,7 +519,8 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 40d5f39ae0668b14f9d71f56c2981be7, type: 2} # Floor material
+  - {fileID: 2100000, guid: 40d5f39ae0668b14f9d71f56c2981be7, type: 2}
+
 --- !u!33 &112
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -505,8 +528,9 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0} # Cube
---- !u!114 &115 # Teleportation Area
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+
+--- !u!114 &115
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,11 +540,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_InteractionManager: {fileID: 32}
   m_TeleportationProvider: {fileID: 0}
---- !u!1 &120 # Wall North
+
+--- !u!1 &120
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -539,6 +564,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &121
 Transform:
   m_ObjectHideFlags: 0
@@ -553,6 +579,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 101}
   m_RootOrder: 1
+
 --- !u!65 &124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -566,6 +593,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+
 --- !u!23 &123
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -577,7 +605,8 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: dcac969f335985b47a7dd104e05496d9, type: 2} # Wall material
+  - {fileID: 2100000, guid: dcac969f335985b47a7dd104e05496d9, type: 2}
+
 --- !u!33 &122
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -585,8 +614,9 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 120}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0} # Cube
---- !u!1 &130 # Wall South
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+
+--- !u!1 &130
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -604,6 +634,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &131
 Transform:
   m_ObjectHideFlags: 0
@@ -618,6 +649,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 101}
   m_RootOrder: 2
+
 --- !u!65 &134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -626,6 +658,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+
 --- !u!23 &133
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -635,12 +668,14 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: dcac969f335985b47a7dd104e05496d9, type: 2}
+
 --- !u!33 &132
 MeshFilter:
   m_ObjectHideFlags: 0
   m_GameObject: {fileID: 130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &140 # Wall East
+
+--- !u!1 &140
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -657,6 +692,7 @@ GameObject:
   m_TagString: Untagged
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &141
 Transform:
   m_ObjectHideFlags: 0
@@ -666,6 +702,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 3, z: 10}
   m_Father: {fileID: 101}
   m_RootOrder: 3
+
 --- !u!65 &144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -674,6 +711,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+
 --- !u!23 &143
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -683,12 +721,14 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: dcac969f335985b47a7dd104e05496d9, type: 2}
+
 --- !u!33 &142
 MeshFilter:
   m_ObjectHideFlags: 0
   m_GameObject: {fileID: 140}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &150 # Wall West
+
+--- !u!1 &150
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -705,6 +745,7 @@ GameObject:
   m_TagString: Untagged
   m_StaticEditorFlags: 0
   m_IsActive: 1
+
 --- !u!4 &151
 Transform:
   m_ObjectHideFlags: 0
@@ -714,6 +755,7 @@ Transform:
   m_LocalScale: {x: 0.1, y: 3, z: 10}
   m_Father: {fileID: 101}
   m_RootOrder: 4
+
 --- !u!65 &154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -722,6 +764,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+
 --- !u!23 &153
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -731,6 +774,7 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: dcac969f335985b47a7dd104e05496d9, type: 2}
+
 --- !u!33 &152
 MeshFilter:
   m_ObjectHideFlags: 0
